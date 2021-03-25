@@ -1,0 +1,122 @@
+.section-step {
+  width: 100%;
+  height: 340px;
+  background-color: #333333;
+}
+
+.conteiner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-step__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10%;
+  color: #e8e8e8;
+}
+
+.section-step__search:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  color: green;
+}
+
+.svg-icon__first {
+  fill: #5474fd;
+  margin-bottom: 10%;
+}
+
+.svg-icon__second {
+  fill: #ff6363;
+  margin-bottom: 10%;
+}
+
+.svg-icon__three {
+  fill: #00a2ff;
+  margin-bottom: 10%;
+}
+
+.caption {
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.section-grand {
+  width: 100%;
+  max-height: 700px;
+  padding-bottom: 20%;
+  background: url(/image/Rectangle414.png) no-repeat center center;
+  background-size: cover;
+}
+
+.section-grand__container {
+  padding-top: 12%;
+  padding-right: 30%;
+  padding-bottom: 3%;
+}
+
+.section-grand-block {
+  width: 540px;
+  height: 371px;
+  margin: 0 auto;
+  opacity: 0.9;
+  padding-top: 1%;
+  background-color: #232323;
+  padding-left: 3%;
+}
+
+.section-grand-block__caption {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #e8e8e8;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.section-grand-block__title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #e8e8e8;
+  padding-bottom: 5%;
+}
+
+.section-grand-block__text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: left;
+  color: #e8e8e8;
+  padding-bottom: 5%;
+}
+
+.section-grand-block:hover {
+  width: 580px;
+  height: 411px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=section-grand.css.map */
