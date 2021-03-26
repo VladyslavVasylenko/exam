@@ -12,6 +12,7 @@
 .section-tourist__conteiner { 
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-tourist__title { 
@@ -80,4 +81,29 @@
   position: relative;
   bottom: 10px;
   padding-right: 10px;
+}
+
+@media screen and (max-width:1040px){
+  .section-tourist-block{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-tourist-block-image { 
+    max-width: 280px;
+  }
+
+  .section-tourist__title { 
+    font-size: 30px;
+  }
+  
+  .section-tourist-block-text__text { 
+    font-size: 12px;
+  }
+
+  .section-tourist-block-image__img:hover{
+    transform: translateY(-3px);
+    box-shadow: 1px 3px 5px rgba(4, 0, 243, 0.5);
+    width: 280px;
+  }
 }

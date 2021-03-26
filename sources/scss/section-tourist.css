@@ -8,6 +8,7 @@
 .section-tourist__conteiner {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-tourist__title {
@@ -81,5 +82,33 @@
   position: relative;
   bottom: 10px;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+  .section-tourist-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-tourist-block-image {
+    max-width: 280px;
+  }
+  .section-tourist__title {
+    font-size: 30px;
+  }
+  .section-tourist-block-text__text {
+    font-size: 12px;
+  }
+  .section-tourist-block-image__img:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 1px 3px 5px rgba(4, 0, 243, 0.5);
+            box-shadow: 1px 3px 5px rgba(4, 0, 243, 0.5);
+    width: 280px;
+  }
 }
 /*# sourceMappingURL=section-tourist.css.map */

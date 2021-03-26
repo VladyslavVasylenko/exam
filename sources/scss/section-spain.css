@@ -55,4 +55,43 @@
   height: 411px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .section-spain__container {
+    padding-top: 12%;
+    padding-left: 0%;
+    padding-bottom: 3%;
+  }
+  .section-spain-blockk__caption {
+    font-size: 15px;
+  }
+  .section-spain-blockk__title {
+    font-size: 15px;
+  }
+  .section-spain-block__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .section-spain-block {
+    width: 80%;
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-spain-block:hover {
+    width: 90%;
+    height: 290px;
+    cursor: pointer;
+  }
+}
 /*# sourceMappingURL=section-spain.css.map */

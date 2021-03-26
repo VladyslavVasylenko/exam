@@ -58,6 +58,15 @@ $color:#fff;
   }
 }
 
+.chck {
+  display: none;
+}
+
+.menu-btn{
+  display: none;
+}
+
+
 .container__menu { 
   max-width: 1110px;
   margin: 0 auto;
@@ -143,7 +152,6 @@ $color:#fff;
 .section-choose-right { 
   margin-top: 15%;
   margin-left: 8%;
-
 }
 
 .section-choose-right__image { 
@@ -168,4 +176,105 @@ $color:#fff;
 
 .section-choose-right__image-second { 
   margin-left: 35%;
+}
+
+@media screen and (max-width:1300px){
+  .section-choose-left {
+    padding-left: 15px;
+  }
+
+  .section-choose-right { 
+    margin-top: 15%;
+    margin-left: 8%;
+    padding-right: 15px;
+  }
+  
+  .section-choose-right__image { 
+    font-size: 16px;
+  }
+  
+  .img { 
+    max-width:280px;
+    margin-bottom: 1%;
+  }
+
+  .section-choose-right__image-second { 
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width:1040px){
+  .section-choose-menu__nav{
+    height: 30%;
+    width: 200px;
+    background: linear-gradient( 45deg, #0022ffc4 25%, #247000bd 75%);
+    position: absolute;
+    top: -100%;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .section-choose-menu__list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 15px;
+  }
+
+  .menu-btn {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .chck:checked ~ .section-choose-menu__nav{
+    top: 180%;
+  }
+  
+  .show {
+    opacity: 0;
+  }
+  
+  .toggle {
+    width: 100%;
+    padding-top: 35%;
+    padding-left: 25%;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Aleo', serif;
+  }
+
+  .container__menu { 
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .chck:checked ~ .section-choose-menu__nav{
+    top: 95%;
+  }
+
+  .section-choose__container{
+    flex-direction: column;
+  }
+
+  .section-choose-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section-choose-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }

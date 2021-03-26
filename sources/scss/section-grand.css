@@ -81,7 +81,6 @@
   width: 55%;
   height: 371px;
   margin: 0 auto;
-  /*opacity: 0.9;*/
   padding-top: 1%;
   padding-right: 1%;
   background-color: #232323dc;
@@ -120,5 +119,58 @@
   width: 60%;
   height: 411px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .conteiner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-step__search {
+    margin-top: 1%;
+  }
+  .caption {
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  .section-grand__container {
+    padding-top: 12%;
+    padding-right: 0%;
+    padding-bottom: 3%;
+  }
+  .section-grand-block__caption {
+    font-size: 15px;
+  }
+  .section-grand-block__title {
+    font-size: 15px;
+  }
+  .section-grand-block__text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .section-grand-block {
+    width: 80%;
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-grand-block:hover {
+    width: 90%;
+    height: 290px;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=section-grand.css.map */
