@@ -52,7 +52,9 @@ $color:#fff;
   }
 
   .section-choose-menu-item__item:hover {
-    color: #0734fc;
+    color: #75fc07;
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 0px rgb(255, 81, 1);
   }
 }
 
@@ -118,14 +120,14 @@ $color:#fff;
 }
 
 .button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
   background: linear-gradient(45deg,  #282930 25%, #1c380f 75%);
 }
 
 .button:active {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  transform: translateY(3px);
+  box-shadow:1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .btn { 
@@ -152,6 +154,17 @@ $color:#fff;
   max-width:320px;
   margin-bottom: 1%;
 }
+
+.img:hover{
+  cursor: pointer;
+  box-shadow: 1px 3px 5px rgba(8, 243, 0, 0.5);
+  animation: .7s down  infinite alternate; 
+-webkit-animation: .7s down infinite alternate;
+}
+
+@keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(10px)} } 
+  @-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(10px)} 
+} 
 
 .section-choose-right__image-second { 
   margin-left: 35%;

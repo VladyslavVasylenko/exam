@@ -26,6 +26,8 @@
 .section-tourist-block { 
   display: flex;
   justify-content: center;
+  color: #e8e8e8;
+  font-size: 20px;
 }
 
 /*.section-tourist-block-image { }*/
@@ -33,6 +35,13 @@
 .section-tourist-block-image__img { 
   width: 100%;
   height: 100%;
+}
+
+.section-tourist-block-image__img:hover{
+  transform: translateY(-1px);
+  box-shadow: 1px 3px 5px rgba(4, 0, 243, 0.5);
+  width: 110%;
+  height: 110%;
 }
 
 .section-tourist-block-text { 
@@ -46,9 +55,7 @@
 
 .section-tourist-block-text__title { 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
   text-align: left;
-  color: #fefefe;
   text-transform: uppercase;
   margin-bottom: 5%;
 }
@@ -58,13 +65,11 @@
   font-size: 16px;
   line-height: 1.63;
   text-align: left;
-  color: #e8e8e8;
 }
 
 .section-tourist-block:hover{
   cursor: pointer;
-  transform: translateY(-1px);
-  box-shadow: 1px 3px 5px rgba(60, 253, 76, 0.5);
+  color: rgba(0, 255, 255, 0.781);
 }
 
 .fa-quote-left{
