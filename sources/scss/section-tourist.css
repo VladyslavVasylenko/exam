@@ -36,7 +36,7 @@
 
 .section-tourist-block-text {
   max-width: 665px;
-  max-height: 284px;
+  max-height: 300px;
   background-color: #333333;
   padding-top: 5%;
   padding-left: 5%;
@@ -48,6 +48,7 @@
   font-size: 20px;
   text-align: left;
   color: #fefefe;
+  text-transform: uppercase;
   margin-bottom: 5%;
 }
 
@@ -65,5 +66,15 @@
           transform: translateY(-1px);
   -webkit-box-shadow: 1px 3px 5px rgba(60, 253, 76, 0.5);
           box-shadow: 1px 3px 5px rgba(60, 253, 76, 0.5);
+}
+
+.fa-quote-left {
+  color: #763ef8;
+}
+
+.fa-quote-left__i {
+  position: relative;
+  bottom: 10px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=section-tourist.css.map */
