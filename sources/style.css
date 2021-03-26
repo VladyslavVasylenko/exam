@@ -19,7 +19,7 @@ html, body {
 
 .header {
   padding-bottom: 20%;
-  background: url(../../image/Image.png) no-repeat;
+  background: url(../image/Image.png) no-repeat;
   background-size: cover;
 }
 
