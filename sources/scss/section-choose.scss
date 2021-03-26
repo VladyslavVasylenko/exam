@@ -64,7 +64,7 @@ $color:#fff;
   padding-top: 1%;
 }
 
-.section-choose-right { 
+.section-choose-left { 
   padding-top: 20%;
   &__title { 
     font-family: 'Aleo', serif;
@@ -85,7 +85,7 @@ $color:#fff;
     margin-bottom: 5%;
   }
 
-  .section-choose-right__text--second{
+  .section-choose-left__text--second{
     max-width: 600px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
@@ -138,13 +138,13 @@ $color:#fff;
   padding: 20px 0 15px 0;
 }
 
-.section-choose-left { 
+.section-choose-right { 
   margin-top: 15%;
   margin-left: 8%;
 
 }
 
-.section-choose-left__image { 
+.section-choose-right__image { 
   font-size: 16px;
 }
 
@@ -153,6 +153,6 @@ $color:#fff;
   margin-bottom: 1%;
 }
 
-.section-choose-left__image-second { 
+.section-choose-right__image-second { 
   margin-left: 35%;
 }
