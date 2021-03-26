@@ -13,13 +13,14 @@ html, body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
 .header {
+  max-height: 820px;
   padding-bottom: 20%;
-  background: url(/image/Image.png) no-repeat;
+  background: url(../../image/Image.png) no-repeat;
   background-size: cover;
 }
 
@@ -30,7 +31,7 @@ html, body {
   letter-spacing: 4.8px;
   text-align: center;
   color: #fff;
-  padding-top: 60%;
+  padding-top: 15%;
   text-transform: uppercase;
 }
 
@@ -78,8 +79,8 @@ html, body {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  border-left: none;
   cursor: pointer;
+  border-left: none;
 }
 
 .header-form__btn:hover {

@@ -14,38 +14,38 @@ html,body{
 $color:#fff;
 
 .container{
-  max-width: 500px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
 .header {
+  max-height: 820px;
   padding-bottom: 20%;
-  background: url(/image/Image.png)
+  background: url(../../image/Image.png)
   no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.header__title { 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  letter-spacing: 4.8px;
-  text-align: center;
-  color: $color;
-  padding-top: 60%;
-  text-transform: uppercase;
-}
-
-.header__slogan { 
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 22px;
-  letter-spacing: 6.82px;
-  text-align: center;
-  color: $color;
-  margin-bottom: 5%;
+  &__title { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 4.8px;
+    text-align: center;
+    color: $color;
+    padding-top: 15%;
+    text-transform: uppercase;
+  }
+  
+  &__slogan { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 6.82px;
+    text-align: center;
+    color: $color;
+    margin-bottom: 5%;
+  }
 }
 
 .header-form { 
@@ -77,8 +77,8 @@ $color:#fff;
     text-align: center;
     color: $color;
     text-transform: uppercase;
-    border-left: none;
     cursor: pointer;
+    border-left: none;
   }
   
   &__btn:hover{
@@ -110,10 +110,8 @@ $color:#fff;
     -webkit-animation: .7s down infinite alternate;
   }
 
-  @keyframes down{ 0%{transform:translateY(0px)} 
-    100%{transform:translateY(10px)} } 
-    @-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 
-    100%{-webkit-transform:translateY(10px)} 
+  @keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(10px)} } 
+      @-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(10px)} 
   } 
 }
 /*
