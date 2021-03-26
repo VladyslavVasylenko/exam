@@ -1,0 +1,67 @@
+.section-tourist { 
+  max-height: 731px;
+  padding-bottom: 20%;
+  background: url(../../image/Rectangle4142.png)
+  no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section-tourist__conteiner { 
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.section-tourist__title { 
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+
+.section-tourist-block { 
+  display: flex;
+  justify-content: center;
+}
+
+/*.section-tourist-block-image { }*/
+
+.section-tourist-block-image__img { 
+  width: 100%;
+  height: 100%;
+}
+
+.section-tourist-block-text { 
+  max-width: 665px;
+  max-height: 284px;
+  background-color: #333333;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-tourist-block-text__title { 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #fefefe;
+  margin-bottom: 5%;
+}
+
+.section-tourist-block-text__text { 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: left;
+  color: #e8e8e8;
+}
+
+.section-tourist-block:hover{
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 1px 3px 5px rgba(60, 253, 76, 0.5);
+}

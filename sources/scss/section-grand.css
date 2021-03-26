@@ -73,17 +73,18 @@
 
 .section-grand__container {
   padding-top: 12%;
-  padding-right: 30%;
+  padding-right: 36%;
   padding-bottom: 3%;
 }
 
 .section-grand-block {
-  width: 540px;
+  width: 55%;
   height: 371px;
   margin: 0 auto;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   padding-top: 1%;
-  background-color: #232323;
+  padding-right: 1%;
+  background-color: #232323dc;
   padding-left: 3%;
 }
 
@@ -103,6 +104,7 @@
   text-align: left;
   color: #e8e8e8;
   padding-bottom: 5%;
+  text-transform: uppercase;
 }
 
 .section-grand-block__text {
@@ -115,7 +117,7 @@
 }
 
 .section-grand-block:hover {
-  width: 580px;
+  width: 60%;
   height: 411px;
   cursor: pointer;
 }

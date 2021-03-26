@@ -100,7 +100,7 @@ $color:#fff;
 .button { 
   width: 225px;
   height: 60px;
-  background: linear-gradient(45deg,  #4b63ff 35%, #5E73F9 65%);
+  background: linear-gradient(45deg,  #3c56fd 25%, #6c7ffa 75%);
   text-align: center;
 }
 
@@ -120,7 +120,7 @@ $color:#fff;
 .button:hover {
   transform: translateY(-3px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(45deg,  #282930 35%, #1c380f 65%);
+  background: linear-gradient(45deg,  #282930 25%, #1c380f 75%);
 }
 
 .button:active {

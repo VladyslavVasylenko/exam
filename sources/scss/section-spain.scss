@@ -1,0 +1,62 @@
+
+//Section Spain
+.section-spain{
+  width: 100%;
+  height:700px;
+  padding-bottom: 20%;
+  background: url(../../image/Rectangle4141.png)
+  no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section-spain__container { 
+  padding-top: 13%;
+  padding-left: 38%;
+  padding-bottom: 8%;
+}
+
+.section-spain-block { 
+  width: 58%;
+  height: 371px;
+  margin: 0 auto;
+  padding-top: 1%;
+  background-color: #232323dc;
+  padding-left: 3%;
+  padding-right: 1%;
+  &__caption { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #e8e8e8;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  &__title { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #e8e8e8;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+  }
+  
+  &__text { 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: left;
+    color: #e8e8e8;
+    padding-bottom: 5%;
+  }
+}
+
+.section-spain-block:hover{
+  width: 60%;
+  height: 411px;
+  cursor: pointer;
+}
+
