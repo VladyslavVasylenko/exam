@@ -11,6 +11,7 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
 .section-spain__container { 
   padding-top: 13%;
   padding-left: 38%;
@@ -81,6 +82,11 @@
 }
 
 @media screen and (max-width:460px){
+  .section-spain{
+    height:500px;
+    padding-top: 15%;
+  }
+
   .section-spain-block{
     width: 80%;
     height: 280px;
