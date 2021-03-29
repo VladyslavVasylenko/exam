@@ -29,6 +29,7 @@ $color:#fff;
     color: $color;
     margin-left: 5%;
     text-transform: uppercase;
+    text-align: center;
   }
 
   &__nav { 
@@ -205,33 +206,35 @@ $color:#fff;
 
 @media screen and (max-width:1040px){
   .section-choose-menu__nav{
-    height: 30%;
-    width: 25%;
+    height: 50%;
+    width: 100%;
     background: linear-gradient( 45deg, #0022ffc4 25%, #247000bd 75%);
-    position: relative;
+    position: absolute;
     top: -1000px;
     align-items: center;
     margin-top: 20px;
-    margin-left: -55px;
+    margin-left: 0px;
   }
 
   .section-choose-menu__list{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 30px;
     padding-left: 15px;
   }
 
   .menu-btn {
     display: flex;
-    position: relative;
+    position: absolute;
     z-index: 1;
     justify-content: center;
     cursor: pointer;
   }
   
   .chck:checked ~ .section-choose-menu__nav{
-    top:30px;
+    top:800px;
+    width:100%;
   }
   
   .show {
@@ -254,17 +257,17 @@ $color:#fff;
   }
 
   .section-choose-menu__title {
-  margin-left: 35%;
-}
+    margin-left: 1%;
+  }
 }
 
 @media screen and (max-width:768px){
   .section-choose-menu__nav{
-    width:50%;
+    width:0%;
   }
 
   .chck:checked ~ .section-choose-menu__nav{
-    top: 30px;
+    top:650px;
     right: 60px;
   }
 
@@ -288,5 +291,21 @@ $color:#fff;
     align-items: center;
     margin-left: 0%;
     padding-right: 0px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .chck:checked ~ .section-choose-menu__nav{
+    top:430px;
+    width:100%;
+    right: 60px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .chck:checked ~ .section-choose-menu__nav{
+    top:400px;
+    width:100%;
+    right: 60px;
   }
 }
